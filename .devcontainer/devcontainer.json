@@ -1,0 +1,17 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "containerEnv": {
+        "DISABLE_JAVA_BUILD": "true"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "java.server.launchMode": "Standard"
+            },
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
